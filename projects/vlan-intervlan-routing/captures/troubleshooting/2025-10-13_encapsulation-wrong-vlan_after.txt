@@ -1,0 +1,8 @@
+# Device: R1
+# Phase: AFTER
+# Commands: show run interface g0/0.10
+show run interface g0/0.20
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: After fix — subinterfaces show correct encapsulation dot1Q IDs.
+
+<PASTE CLI OUTPUT BELOW THIS LINE>

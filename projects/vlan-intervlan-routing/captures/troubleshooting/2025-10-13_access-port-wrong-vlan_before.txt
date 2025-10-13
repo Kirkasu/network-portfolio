@@ -1,0 +1,7 @@
+# Device: SW1
+# Phase: BEFORE
+# Commands: show vlan brief
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: Before fix — PC1 port Gi0/1 shown in VLAN 20 by mistake.
+
+<PASTE CLI OUTPUT BELOW THIS LINE>

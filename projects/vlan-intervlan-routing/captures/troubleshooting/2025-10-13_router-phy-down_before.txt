@@ -1,0 +1,7 @@
+# Device: R1
+# Phase: BEFORE
+# Commands: show ip interface brief
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: Before fix — G0/0 administratively down; subinterfaces down/down.
+
+<PASTE CLI OUTPUT BELOW THIS LINE>

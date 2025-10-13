@@ -1,0 +1,7 @@
+# Device: R1
+# Phase: AFTER
+# Commands: show ip interface brief
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: After fix — G0/0 up; subinterfaces up/up.
+
+<PASTE CLI OUTPUT BELOW THIS LINE>

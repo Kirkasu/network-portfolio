@@ -1,0 +1,7 @@
+# Device: SW1
+# Phase: BEFORE
+# Commands: show interfaces trunk
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: Before fix — native VLAN shows 999 (R1 uses 1); warnings likely.
+
+<PASTE CLI OUTPUT BELOW THIS LINE>

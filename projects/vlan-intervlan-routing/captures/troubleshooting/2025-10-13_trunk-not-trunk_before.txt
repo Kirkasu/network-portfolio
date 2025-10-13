@@ -1,0 +1,7 @@
+# Device: SW1
+# Phase: BEFORE
+# Commands: show interfaces trunk
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: Before fix — link to R1 is not trunking; inter-VLAN fails.
+
+<PASTE CLI OUTPUT BELOW THIS LINE>

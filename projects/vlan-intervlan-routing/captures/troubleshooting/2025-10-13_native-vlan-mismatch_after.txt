@@ -1,0 +1,7 @@
+# Device: SW1
+# Phase: AFTER
+# Commands: show interfaces trunk
+# Date: YYYY-MM-DD  (replace with the day you captured)
+# Description: After fix — native VLAN aligned to 1 (default).
+
+<PASTE CLI OUTPUT BELOW THIS LINE>
