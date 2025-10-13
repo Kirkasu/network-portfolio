@@ -1,0 +1,10 @@
+﻿# Device: PC1
+# Command: ping 192.168.20.100
+# Date: 2025-10-13
+
+PC1:~# ping -c 4 192.168.20.100
+PING 192.168.20.100 (192.168.20.100): 56 data bytes
+64 bytes from 192.168.20.100: seq=0 ttl=63 time=3.602 ms
+64 bytes from 192.168.20.100: seq=1 ttl=63 time=3.180 ms
+64 bytes from 192.168.20.100: seq=2 ttl=63 time=4.471 ms
+64 bytes from 192.168.20.100: seq=3 ttl=63 time=3.399 ms

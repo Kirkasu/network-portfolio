@@ -1,0 +1,8 @@
+﻿# Device: R1
+# Command: show ip interface brief | include 0/0
+# Date: 2025-10-13
+
+R1#sh ip int b | include 0/0
+GigabitEthernet0/0         unassigned      YES unset  up                    up      
+GigabitEthernet0/0.10      192.168.10.1    YES manual up                    up      
+GigabitEthernet0/0.20      192.168.20.1    YES manual up                    up   

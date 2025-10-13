@@ -1,0 +1,11 @@
+﻿# Device: SW1
+# Command: show vlan brief
+# Date: 2025-10-13
+
+SW1#sh vlan b
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gi0/3
+10   USERS10                          active    Gi0/1
+20   USERS20                          active    Gi0/2

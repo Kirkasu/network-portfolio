@@ -1,0 +1,8 @@
+# Device: SW1
+# Command: show interfaces trunk
+# Date: 2025-10-13
+
+Port      Mode  Encapsulation  Status    Native vlan
+Gi0/0     on    802.1q         trunking  1
+Port Vlans allowed on trunk
+Gi0/0     10
