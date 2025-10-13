@@ -1,8 +1,0 @@
-# Device: PC1 (Linux Desktop)
-# Phase: BEFORE
-# Commands: ip route
-ping -c 4 192.168.20.100
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: Before fix — default route points to wrong next-hop; inter-VLAN ping fails.
-
-<PASTE CLI OUTPUT BELOW THIS LINE>

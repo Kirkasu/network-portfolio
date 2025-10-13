@@ -1,7 +1,16 @@
 # Device: R1
 # Phase: AFTER
-# Commands: show ip interface brief
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: After fix — G0/0 up; subinterfaces up/up.
+# Command: show ip interface brief
+# Date: 2025-10-13
+# Description: Parent interface G0/0 up; subinterfaces up/up.
 
-<PASTE CLI OUTPUT BELOW THIS LINE>
+R1# show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0     unassigned      YES unset  up                    up
+GigabitEthernet0/0.10  192.168.10.1    YES manual up                    up
+GigabitEthernet0/0.20  192.168.20.1    YES manual up                    up
+
+# Ping test from PC1 (successful)
+PC1> ping 192.168.20.100
+84 bytes from 192.168.20.100: icmp_seq=1 ttl=64 time=1.05 ms
+84 bytes from 192.168.20.100: icmp_seq=2 ttl=64 time=1.04 ms

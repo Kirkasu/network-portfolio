@@ -1,7 +1,0 @@
-# Device: SW1
-# Phase: AFTER
-# Commands: show interface g0/1 status
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: After fix — Gi0/1 connected; host online.
-
-<PASTE CLI OUTPUT BELOW THIS LINE>

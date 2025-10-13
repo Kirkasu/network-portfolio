@@ -1,7 +1,0 @@
-# Device: SW1
-# Phase: BEFORE
-# Commands: show interface g0/1 status
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: Before fix — Gi0/1 is administratively down; host offline.
-
-<PASTE CLI OUTPUT BELOW THIS LINE>

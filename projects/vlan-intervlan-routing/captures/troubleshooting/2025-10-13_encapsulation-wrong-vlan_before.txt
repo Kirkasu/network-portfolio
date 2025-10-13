@@ -1,8 +1,0 @@
-# Device: R1
-# Phase: BEFORE
-# Commands: show run interface g0/0.10
-show run interface g0/0.20
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: Before fix — subinterface VLAN tags swapped (10↔20).
-
-<PASTE CLI OUTPUT BELOW THIS LINE>

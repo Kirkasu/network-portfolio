@@ -1,6 +1,0 @@
-# Device: SW1
-# Command: show interfaces trunk
-# Date: 2025-10-13
-
-Port Vlans allowed on trunk
-Gi0/0     10,20

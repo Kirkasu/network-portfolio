@@ -1,7 +1,17 @@
 # Device: SW1
 # Phase: AFTER
-# Commands: show interfaces trunk
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: After fix — native VLAN aligned to 1 (default).
+# Command: show interfaces trunk
+# Date: 2025-10-13
+# Description: Native VLAN aligned to 1 on both sides.
 
-<PASTE CLI OUTPUT BELOW THIS LINE>
+SW1# show interfaces trunk
+Port      Mode         Encapsulation  Status        Native vlan
+Gi0/0     on           802.1q         trunking      1
+
+Port Vlans allowed on trunk
+Gi0/0     10,20
+
+# Ping test from PC1 (successful)
+PC1> ping 192.168.20.100
+84 bytes from 192.168.20.100: icmp_seq=1 ttl=64 time=1.18 ms
+84 bytes from 192.168.20.100: icmp_seq=2 ttl=64 time=1.12 ms

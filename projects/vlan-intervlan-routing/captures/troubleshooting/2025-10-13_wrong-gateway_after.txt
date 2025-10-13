@@ -1,8 +1,0 @@
-# Device: PC1 (Linux Desktop)
-# Phase: AFTER
-# Commands: ip route
-ping -c 4 192.168.20.100
-# Date: YYYY-MM-DD  (replace with the day you captured)
-# Description: After fix — default route via 192.168.10.1; inter-VLAN ping succeeds.
-
-<PASTE CLI OUTPUT BELOW THIS LINE>
