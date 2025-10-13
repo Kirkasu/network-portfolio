@@ -1,8 +1,13 @@
 ﻿# Device: R1
 # Command: show ip interface brief | include 0/0
 # Date: 2025-10-13
+# Paste output below:
 
-R1#sh ip int b | include 0/0
+R1#sh ip int b
+Interface                  IP-Address      OK? Method Status                Protocol
 GigabitEthernet0/0         unassigned      YES unset  up                    up      
 GigabitEthernet0/0.10      192.168.10.1    YES manual up                    up      
-GigabitEthernet0/0.20      192.168.20.1    YES manual up                    up   
+GigabitEthernet0/0.20      192.168.20.1    YES manual up                    up      
+GigabitEthernet0/1         unassigned      YES unset  administratively down down    
+GigabitEthernet0/2         unassigned      YES unset  administratively down down    
+GigabitEthernet0/3         unassigned      YES unset  administratively down down 
