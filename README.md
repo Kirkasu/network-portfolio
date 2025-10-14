@@ -98,8 +98,7 @@ To replicate:
 
 **Kirk “Kirkasu” Dickens**  
 Network & Systems Engineer | CCNA | Security+ | Python  
-📧 Replace-with-your-contact-or-LinkedIn
+https://www.linkedin.com/in/kirk-dickens-09b765212/
+
 
 ---
-
-> “Documentation is part of engineering — every packet tells a story.”

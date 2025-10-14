@@ -65,8 +65,17 @@ interface g0/0.20
 ## Verification
 ```bash
 SW1# show interfaces trunk
+Port        Mode         Encapsulation  Status        Native vlan
+Gi0/1       on           802.1q         trunking      1
+
 R1# show ip interface brief
+Interface        IP-Address      OK? Method Status  Protocol
+G0/0.10          192.168.10.1    YES manual up      up
+G0/0.20          192.168.20.1    YES manual up      up
+
 PC1> ping 192.168.20.100
+Reply from 192.168.20.100: bytes=32 time<1ms TTL=128
+
 ```
 
 ✅ Successful inter-VLAN connectivity confirmed.
@@ -74,7 +83,7 @@ PC1> ping 192.168.20.100
 ---
 
 ## Break/Fix Scenarios
-- [VLAN 20 Missing from Trunk](breakfix/trunk_missing_vlan20.md)
+- [VLAN 20 Missing from Trunk](breakfix/trunk_not_trunk.md)
 
 ---
 
