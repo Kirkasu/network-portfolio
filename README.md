@@ -96,7 +96,7 @@ To replicate:
 
 ## 📫 Contact
 
-**Kirk “Kirkasu” Dickens**  
+**Kirk Dickens**  
 Network & Systems Engineer | CCNA | Security+ | Python  
 https://www.linkedin.com/in/kirk-dickens-09b765212/
 
