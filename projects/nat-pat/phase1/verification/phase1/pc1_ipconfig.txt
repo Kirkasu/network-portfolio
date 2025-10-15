@@ -1,6 +1,4 @@
-PC1:~# ip addr add 192.168.10.10/24 dev eth0
-PC1:~# ip route add default via 192.168.10.1
-PC1:~# ip addr show
+PC1:~# ip add
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -13,11 +11,3 @@ PC1:~# ip addr show
        valid_lft forever preferred_lft forever
     inet6 fe80::5054:ff:fea1:71cd/64 scope link 
        valid_lft forever preferred_lft forever
-PC1:~# ip route
-default via 192.168.10.1 dev eth0 
-192.168.10.0/24 dev eth0 scope link  src 192.168.10.10 
-PC1:~# ping 198.51.100.10
-PING 198.51.100.10 (198.51.100.10): 56 data bytes
-64 bytes from 198.51.100.10: seq=0 ttl=254 time=5.775 ms
-64 bytes from 198.51.100.10: seq=1 ttl=254 time=3.411 ms
-64 bytes from 198.51.100.10: seq=2 ttl=254 time=3.506 ms
