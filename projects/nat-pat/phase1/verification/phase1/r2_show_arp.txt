@@ -1,0 +1,4 @@
+R2#sh arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  203.0.113.1            58   5254.00e5.5435  ARPA   GigabitEthernet0/0
+Internet  203.0.113.2             -   5254.00fe.aa69  ARPA   GigabitEthernet0/0
