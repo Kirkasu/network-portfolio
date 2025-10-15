@@ -1,0 +1,4 @@
+PING 198.51.100.10 (198.51.100.10): 56 data bytes
+
+--- 198.51.100.10 ping statistics ---
+4 packets transmitted, 0 packets received, 100% packet loss

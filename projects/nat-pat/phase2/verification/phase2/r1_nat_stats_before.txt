@@ -1,0 +1,20 @@
+R1#clear ip nat trans *
+R1#sh ip nat trans
+R1#sh ip nat stat
+Total active translations: 0 (0 static, 0 dynamic; 0 extended)
+Peak translations: 0
+Outside interfaces:
+  GigabitEthernet0/1
+Inside interfaces: 
+  GigabitEthernet0/0
+Hits: 0  Misses: 0
+CEF Translated packets: 0, CEF Punted packets: 0
+Expired translations: 0
+Dynamic mappings:
+-- Inside Source
+[Id: 1] access-list 10 interface GigabitEthernet0/1 refcount 0
+
+Total doors: 0
+Appl doors: 0
+Normal doors: 0
+Queued Packets: 0

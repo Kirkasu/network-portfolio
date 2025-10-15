@@ -1,0 +1,10 @@
+PC1:~# ping -c 4 198.51.100.10
+PING 198.51.100.10 (198.51.100.10): 56 data bytes
+64 bytes from 198.51.100.10: seq=0 ttl=254 time=3.721 ms
+64 bytes from 198.51.100.10: seq=1 ttl=254 time=3.058 ms
+64 bytes from 198.51.100.10: seq=2 ttl=254 time=2.742 ms
+64 bytes from 198.51.100.10: seq=3 ttl=254 time=2.954 ms
+
+--- 198.51.100.10 ping statistics ---
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip min/avg/max = 2.742/3.118/3.721 ms

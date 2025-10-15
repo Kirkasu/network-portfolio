@@ -1,0 +1,9 @@
+R1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#int g0/0
+R1(config-if)#ip nat inside
+R1(config-if)#int g0/1
+R1(config-if)#ip nat outside
+R1(config-if)#ex
+R1(config)#access-list 10 permit 192.168.10.0 0.0.0.255
+R1(config)#ip nat inside source list 10 int g0/1 overload

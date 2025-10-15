@@ -1,0 +1,17 @@
+R1#sh ip nat stat
+Total active translations: 0 (0 static, 0 dynamic; 0 extended)
+Peak translations: 7, occurred 00:22:35 ago
+Outside interfaces:
+Inside interfaces: 
+  GigabitEthernet0/0
+Hits: 54  Misses: 0
+CEF Translated packets: 50, CEF Punted packets: 4
+Expired translations: 11
+Dynamic mappings:
+-- Inside Source
+[Id: 1] access-list 10 interface GigabitEthernet0/1 refcount 0
+
+Total doors: 0
+Appl doors: 0
+Normal doors: 0
+Queued Packets: 0

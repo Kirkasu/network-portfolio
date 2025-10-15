@@ -1,0 +1,9 @@
+PING 198.51.100.10 (198.51.100.10): 56 data bytes
+64 bytes from 198.51.100.10: seq=0 ttl=254 time=3.586 ms
+64 bytes from 198.51.100.10: seq=1 ttl=254 time=3.486 ms
+64 bytes from 198.51.100.10: seq=2 ttl=254 time=2.711 ms
+64 bytes from 198.51.100.10: seq=3 ttl=254 time=3.838 ms
+
+--- 198.51.100.10 ping statistics ---
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip min/avg/max = 2.711/3.405/3.838 ms

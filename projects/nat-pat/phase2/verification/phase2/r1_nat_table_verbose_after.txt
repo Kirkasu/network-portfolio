@@ -1,0 +1,19 @@
+R1#sh ip nat trans verb
+Pro Inside global      Inside local       Outside local      Outside global
+icmp 203.0.113.1:2744  192.168.10.10:2744 198.51.100.10:2744 198.51.100.10:2744
+    create 00:00:37, use 00:00:34 timeout:60000, left 00:00:25, Map-Id(In): 1, 
+    flags: 
+extended, use_count: 0, entry-id: 7, lc_entries: 0
+udp 203.0.113.1:57327  192.168.10.10:57327 198.51.100.10:33438 198.51.100.10:33438
+    create 00:01:05, use 00:01:05 timeout:300000, left 00:03:54, Map-Id(In): 1, 
+    flags: 
+extended, use_count: 0, entry-id: 4, lc_entries: 0
+udp 203.0.113.1:57327  192.168.10.10:57327 198.51.100.10:33439 198.51.100.10:33439
+    create 00:01:00, use 00:01:00 timeout:300000, left 00:03:59, Map-Id(In): 1, 
+    flags: 
+extended, use_count: 0, entry-id: 5, lc_entries: 0
+udp 203.0.113.1:57327  192.168.10.10:57327 198.51.100.10:33440 198.51.100.10:33440
+    create 00:01:00, use 00:01:00 timeout:300000, left 00:03:59, Map-Id(In): 1, 
+    flags: 
+extended, use_count: 0, entry-id: 6, lc_entries: 0
+udp 203.0.113.1:60884  192.168.10.10:60884 198.51.100.10:33438 198.51.100.10:33438

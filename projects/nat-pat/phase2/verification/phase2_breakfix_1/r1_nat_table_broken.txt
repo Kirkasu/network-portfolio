@@ -1,0 +1,3 @@
+R1#sh ip nat trans
+R1#
+R1#
